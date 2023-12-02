@@ -9,14 +9,14 @@ SETUP
     cd rlearner
 
 
-3. Set up virtual environment.
+3. Set up virtual environment, `env_rlearner`.
 
-    virtualenv env -p python3.9
+    virtualenv env_rlearner -p python3.9
 
 
 4. Activate virtual environment.
 
-    source env/bin/activate
+    source env_rlearner/bin/activate
 
 
 5. Install requirements.
@@ -26,14 +26,18 @@ SETUP
 
 6. Install jupyter kernel for the virtual environment.
 
-    ipython kernel install --user --name=env
+    ipython kernel install --user --name=env_rlearner
+
+  This creates a kernel, `env_rlearner`, located here:
+
+    ~/Library/Jupyter/kernels/env_rlearner
 
   Note: if you wish to uninstall this kernel, run the following command:
 
-    jupyter-kernelspec uninstall env
+    jupyter-kernelspec uninstall env_rlearner
 
 
-7. Select the installed kernel, `env`, to use jupyter notebook in this virtual environment.
+7. Select the installed kernel, `env_rlearner`, to use jupyter notebook in this virtual environment.
 
   - Open jupyter notebook
-  - Select Kernel > Change kernel > env
+  - Select Kernel > Change kernel > env_rlearner
