@@ -39,15 +39,11 @@ SETUP
 
   This creates a kernel, `env_rlearner`, located here:
 
-    ```
     ~/Library/Jupyter/kernels/env_rlearner
-    ```
 
   Note: if you wish to uninstall this kernel, run the following command:
 
-    ```
     jupyter-kernelspec uninstall env_rlearner
-    ```
 
 7. Select the installed kernel, `env_rlearner`, to use jupyter notebook in this virtual environment.
 
