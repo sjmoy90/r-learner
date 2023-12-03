@@ -37,7 +37,7 @@ SETUP
     ipython kernel install --user --name=env_rlearner
     ```
 
-  This creates a kernel, `env_rlearner`, located here:
+  This creates a kernel, `env_rlearner`, located here.
 
     ~/Library/Jupyter/kernels/env_rlearner
 
